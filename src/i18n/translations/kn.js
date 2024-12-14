@@ -8,7 +8,7 @@ export default {
     seconds: "ಸೆಕೆಂ.."
   },
   buttons: {
-    history: "ಪಲಿಮಾರು ಬಗ್ಗೆ",
+    history: "ಪಾಲಿಮರಿನ ಐತಿಹ್ಯ",
     events: "ಕಾರ್ಯಕ್ರಮಗಳ ವಿವರಗಳು",
     close: "ಮುಚ್ಚಿರಿ",
     language: "English"
