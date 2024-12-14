@@ -13,11 +13,14 @@ const TempleHistory = ({ isOpen, onClose }) => {
       overlayClassName="fixed inset-0 bg-black bg-opacity-50"
     >
       <h2 className="text-2xl font-bold text-orange-800 mb-4">{t('history.title')}</h2>
-      <div className="prose">
+      
+      {/* Make this container scrollable if content exceeds */}
+      <div className="prose overflow-y-auto max-h-96">
         <p className="text-gray-700">
           {t('history.content')}
         </p>
       </div>
+
       <button
         onClick={onClose}
         className="mt-6 bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700"
