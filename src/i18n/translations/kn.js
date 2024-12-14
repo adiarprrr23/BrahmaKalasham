@@ -8,7 +8,7 @@ export default {
     seconds: "ಸೆಕೆಂ.."
   },
   buttons: {
-    history: "ಪಾಲಿಮರಿನ ಐತಿಹ್ಯೆ",
+    history: "ಪಲಿಮಾರಿನ ಐತಿಹ್ಯೆ",
     events: "ಕಾರ್ಯಕ್ರಮಗಳ ವಿವರಗಳು",
     close: "ಮುಚ್ಚಿರಿ",
     language: "English"
