@@ -43,7 +43,7 @@ export default {
       ],
       day5: [
         "Date: 05-01-2025, Sunday",
-        "Adhivasa Homa, Brahmakalashabhisheka at 9:45 AM, Nagasannidhi Ashlesha Bali, Navak Pradhana Homa, Maha Pooja, Avasruta Bali, Annabrahma Pooja",
+        "Morning:Adhivasa Homa, Brahmakalashabhisheka at 9:45 AM, Nagasannidhi Ashlesha Bali, Navak Pradhana Homa, Maha Pooja, Avasruta Bali, Annabrahma Pooja",
         "Afternoon: Maha Annasantarpane at 1:00 PM",
         "Evening: Maharanga Pooja, Bhutabali, Rathotsava, Avabhrita Snana"
       ],
