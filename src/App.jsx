@@ -6,6 +6,7 @@ import TempleHistory from "./components/TempleHistory";
 import Events from "./components/Events";
 import LanguageToggle from "./components/LanguageToggle";
 import OpaqueGod from "./assets";
+import LocationLink from './components/LocationLink';
 import "./App.css";
 import "./i18n/i18n";
 
@@ -37,18 +38,18 @@ function App() {
           <div className="mt-12 flex justify-center gap-6">
             <button
               onClick={() => setHistoryModalOpen(true)}
-              className="bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition-colors shadow-lg"
+              className="temple-button bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition-colors shadow-lg"
             >
               {t("buttons.history")}
             </button>
             <button
               onClick={() => setEventsModalOpen(true)}
-              className="bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition-colors shadow-lg"
+              className="temple-button bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition-colors shadow-lg"
             >
               {t("buttons.events")}
             </button>
           </div>
-
+          <LocationLink />
           <TempleHistory
             isOpen={historyModalOpen}
             onClose={() => setHistoryModalOpen(false)}
@@ -59,6 +60,7 @@ function App() {
             onClose={() => setEventsModalOpen(false)}
           />
         </div>
+        {/* <MainLayout/> */}
       </div>
     </div>
   );
