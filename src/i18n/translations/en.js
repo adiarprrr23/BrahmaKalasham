@@ -1,5 +1,5 @@
 export default {
-  title: "Palimaru Sri Santana Subrahmanya Temple, Barmadi Brahmakalashabhisheka",
+  title: "Palimaru Sri Santana Subrahmanya Temple, Baramadi Brahmakalashabhisheka",
   countdown: {
     title: "Brahmakalashabhishekha Countdown",
     days: "Days",
